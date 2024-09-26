@@ -132,7 +132,8 @@ content:
     content:
       - layout: left
         border: weak
-        title: Discovery Kit Music Player (ARMv7, STM32 Discovery Kit)
+        title: Discovery Kit Music Player
+        sub_title: ARMv7, STM32 Discovery Kit
         quote: >
           A music player based on an STM32L476 discovery kit and programmed with ARMv7.
         description: |
@@ -140,7 +141,8 @@ content:
 
       - layout: left
         border: weak
-        title: QRCode Hunter (Java, Android, Android Studio, Firebase)
+        title: QRCode Hunter
+        sub_title: Java, Android, Android Studio, Firebase
         link: https://github.com/CMPUT301W23T46/IQDisabled
         link_text: GitHub Page
         quote: >
@@ -150,7 +152,8 @@ content:
 
       - layout: left
         border: weak
-        title: Smart Home (TypeScript, React Native, NestJS, PostgreSQL, Docker, NginX)
+        title: Smart Home
+        sub_title: TypeScript, React Native, NestJS, PostgreSQL, Docker, NginX
         link: https://github.com/UAlberta-CMPUT401/f23project-simply-home
         link_text: GitHub Page
         additional_links:
