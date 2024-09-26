@@ -26,13 +26,7 @@ linkedin_username: felix-wang-75b0b824b
 
 about_profile_image: images/Photo.jpg
 about_content: |
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+I am a developer with a foundation in <mark>Python</mark>, <mark>Java</mark>, </mark>TypeScript</mark>, and modern web frameworks like <mark>React</mark> and <mark>NestJS</mark>. My experience spans across both front-end and back-end development, utilizing tools such as <mark>Docker</mark> and databases like <mark>MySQL</mark>, <mark>PostgreSQL</mark>, and <mark>MongoDB</mark>. I also have a keen interest in <mark>machine learning</mark> and <mark>game theory</mark>, applying advanced frameworks like <mark>Pytorch</mark> to solve complex problems. Fluent in both English and Chinese, I excel in <mark>multicultural environments</mark>, bringing strong <mark>communication skills</mark>, <mark>academic writing</mark> skills, and <mark>qualitative analysis</mark> skills to my work.
 
 content:
   - title: Projects # Title for the section
