@@ -60,8 +60,8 @@ content:
     layout: list
     content:
       - layout: left
-        title: Haier Smart Home - Qingdao, China
-        sub_title: Software Engineer Intern
+        title: Software Engineer Intern
+        sub_title: Haier Smart Home - Qingdao, China
         caption: July 2023 - August 2023
         description: |
           - Participated in the development of the speech control module for the Casarte (Haier) washing machine.
@@ -69,8 +69,8 @@ content:
           - Participated in group meetings to report project details and coordinate project progress with project managers.
           
       - layout: left
-        title: Dalhousie University Software Engineering Lab - Halifax, Canada
-        sub_title: Research Assistant
+        title: Research Assistant
+        sub_title: Dalhousie University Software Engineering Lab - Halifax, Canada
         caption: May 2022 - September 2022
         description: |
           - Worked on an interview study discussing the Software Industry's hybrid working mode during the COVID pandemic.
@@ -81,8 +81,8 @@ content:
           - Engaged in academic writing to contribute to scholarly discourse.
 
       - layout: left
-        title: Qingdao Yuezhenq Electronic Technology Co., Ltd. - Qingdao, China
-        sub_title: Web Development Intern
+        title: Web Development Intern
+        sub_title: Qingdao Yuezhenq Electronic Technology Co., Ltd. - Qingdao, China
         caption: October 2020 - January 2021
         description: |
           - Worked on a Vocational School Education Management System project (Teacher's interface).
