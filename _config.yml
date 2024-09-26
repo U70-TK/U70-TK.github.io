@@ -175,8 +175,13 @@ content:
     content: |
       **Volunteer for Prairie Urban Farm: Summer Gardening.**
       - Participated in various summer gardening activities, including planting, watering, and maintaining garden beds, contributing to the community's food sustainability efforts. Worked with a diverse group of people, learning about urban farming practices and teamwork in a collaborative outdoor environment.
-      - Images ![alt text](/images/volunteer1.jpg "Volunteering picture1")
-      - Images ![alt text](/images/volunteer2.jpg "Volunteering picture2")
+      - ![alt text](/images/volunteer1.jpg "Volunteering picture1")
+      - ![alt text](/images/volunteer2.jpg "Volunteering picture2")
+  
+  - title: Awards
+    layout: text
+    content: |
+      **2024 Dean’s Honor Roll - University of Alberta Faculty of Science.**
 
 # Footer
 footer_show_references: true
