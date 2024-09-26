@@ -156,18 +156,15 @@ content:
         sub_title: TypeScript, React Native, NestJS, PostgreSQL, Docker, NginX
         link: https://github.com/UAlberta-CMPUT401/f23project-simply-home
         link_text: GitHub Page
-        additional_links:
-          - title: APK file
-            icon: fab fa-link
-            url: assets/application-d49ddf88-380b-49c8-bdbb-542b2f4f912a.apk
         quote: >
           A TypeScript project by a startup company aiming to manage home appliances and provide maintenance solutions.
         description: |
           - Uses React Native as a presentation layer, NginX and NestJS for business logic, and PostgreSQL for DB service. The project is dockerized and deployed on Cybera Cloud.
-
+          - <a href="/assets/application-d49ddf88-380b-49c8-bdbb-542b2f4f912a.apk">APK file can be found here. </a>
       - layout: left
         border: weak
-        title: AI-powered Ninuki Game (Python, Minimax, AlphaBeta, MCTS)
+        title: AI-powered Ninuki Game
+        sub_title: Python, Minimax, AlphaBeta, MCTS
         quote: >
           A Python project that allows human players to compete against AI opponents in a GoGui.
         description: |
