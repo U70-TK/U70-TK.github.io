@@ -90,16 +90,41 @@ content:
           - Evaluated code to ensure its validity, proper structure, compliance with industry standards, and compatibility with various browsers, devices, and operating systems.
 
   - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+  layout: list
+  content:
+    - layout: top-right
+      title: University of Alberta
+      sub_title: B.Sc. Computing Science (Honors)
+      caption: September 2022 - June 2025 (Expected Graduation)
+      description: |
+        - Current GPA: 3.76
+        - Relevant courses and skills:
+          - Android development with Java (Gradle), software development principles and design patterns for robust and scalable mobile applications.
+          - Course on cross-platform development using React Native, NestJS, and TypeScript, focusing on Agile methodologies and software management practices.
+          - Database query implementation (SQLite, MongoDB) and database scaling and normalization.
+          - Software quality improvement using Black Box testing, White Box testing, AB testing, and performance testing.
+          - Searching and Planning in Artificial Intelligence, converting realistic scenarios into a Constraint Satisfaction Problem for AI algorithms to perform searching.
+
+    - layout: top-right
+      title: Dalhousie University
+      sub_title: Bachelor of Computer Science
+      caption: January 2022 - September 2022
+      description: |
+        - Relevant courses and skills:
+          - Course on using HTTP, CSS and JavaScript to build web pages, as well as basic network communication principles.
+          - Use Python's data science libraries such as numpy, pandas, and matplotlib to perform data science analysis and data visualization.
+          - Agile Development's philosophy, implementation methods, and basic management principles for software engineering teams.
+          - Use tools such as Wiresharks to capture and analyze network packets, as well as the basic concepts and applications of cryptography.
+
+    - layout: top-right
+      title: The Australian National University
+      sub_title: Bachelor of Information Technology
+      caption: February 2020 - January 2022
+      description: |
+        - Use Java to implement basic data structures and algorithms.
+        - Use Haskell to get familiar with Functional Programming and implement game artificial intelligence algorithms in Game theory.
+        - Use Assembly Language ARMv7 to code STM32 discovery kits. 
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
