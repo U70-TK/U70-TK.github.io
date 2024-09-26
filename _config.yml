@@ -56,7 +56,7 @@ content:
         description: |
           Mentored by Dr. Ryan Hayward on a Game Theory project about proving a conjecture mentioned in the paper “An introduction to Clobber” published in the Journal INTEGER. The project includes mathematical proving as well as developing an algorithm for solving an NP-Hard problem.
 
-  - title: Experience
+  - title: Work Experience
     layout: list
     content:
       - layout: left
@@ -126,6 +126,49 @@ content:
             - Use Java to implement basic data structures and algorithms.
             - Use Haskell to get familiar with Functional Programming and implement game artificial intelligence algorithms in Game theory.
             - Use Assembly Language ARMv7 to code STM32 discovery kits. 
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Discovery Kit Music Player (ARMv7, STM32 Discovery Kit)
+        quote: >
+          A music player based on an STM32L476 discovery kit and programmed with ARMv7.
+        description: |
+          - Music will be played when users plug their headphones in, with three different tracks selectable using the Joycon. LED lights flash when the corresponding button is pressed.
+
+      - layout: left
+        border: weak
+        title: QRCode Hunter (Java, Android, Android Studio, Firebase)
+        link: https://github.com/CMPUT301W23T46/IQDisabled
+        link_text: GitHub Page
+        quote: >
+          An Android app built with Java (Gradle).
+        description: |
+          - Users can scan QR codes to obtain scores and compete with friends online, while a Google Maps API displays nearby "QRCode Hunter" users and their scores, and a leaderboard ranks all users' scores in descending order.
+
+      - layout: left
+        border: weak
+        title: Smart Home (TypeScript, React Native, NestJS, PostgreSQL, Docker, NginX)
+        link: https://github.com/UAlberta-CMPUT401/f23project-simply-home
+        link_text: GitHub Page
+        additional_links:
+          - title: APK file
+            icon: fab fa-link
+            url: assets/application-d49ddf88-380b-49c8-bdbb-542b2f4f912a.apk
+        quote: >
+          A TypeScript project by a startup company aiming to manage home appliances and provide maintenance solutions.
+        description: |
+          - Uses React Native as a presentation layer, NginX and NestJS for business logic, and PostgreSQL for DB service. The project is dockerized and deployed on Cybera Cloud.
+
+      - layout: left
+        border: weak
+        title: AI-powered Ninuki Game (Python, Minimax, AlphaBeta, MCTS)
+        quote: >
+          A Python project that allows human players to compete against AI opponents in a GoGui.
+        description: |
+          - The game features multiple levels of difficulty to cater to players of varying skill levels. AI opponents are implemented using different algorithms: a Minimax-based player for basic strategic moves, an Alpha-Beta pruning-based player for more efficient decision-making, and a Monte Carlo Tree Search (MCTS) player for advanced and probabilistic strategies.
 
   - title: A Little More About Me
     layout: text
