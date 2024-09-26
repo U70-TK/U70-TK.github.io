@@ -175,8 +175,8 @@ content:
     content: |
       **Volunteer for Prairie Urban Farm: Summer Gardening.**
       - Participated in various summer gardening activities, including planting, watering, and maintaining garden beds, contributing to the community's food sustainability efforts. Worked with a diverse group of people, learning about urban farming practices and teamwork in a collaborative outdoor environment.
-      - ![alt text](/images/volunteer1.jpg "Volunteering picture1")
-      - ![alt text](/images/volunteer2.jpg "Volunteering picture2")
+      - <img src="/images/volunteer1.jpg" alt="Volunteering picture1" width="200"/>
+      - <img src="/images/volunteer2.jpg" alt="Volunteering picture2" width="200"/>
   
   - title: Awards
     layout: text
