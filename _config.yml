@@ -56,7 +56,7 @@ content:
         description: |
           Mentored by Dr. Ryan Hayward on a Game Theory project about proving a conjecture mentioned in the paper “An introduction to Clobber” published in the Journal INTEGER. The project includes mathematical proving as well as developing an algorithm for solving an NP-Hard problem.
 
-    - title: Experience
+  - title: Experience
     layout: list
     content:
       - layout: left
@@ -65,7 +65,7 @@ content:
         caption: July 2023 - August 2023
         description: |
           - Participated in the development of the speech control module for the Casarte (Haier) washing machine.
-          - Contributed to the code of Haier’s IoT packages, including the startup sound feature, voice-switching feature, sleep mode voice activation feature, and washing and drying voice activation feature.
+          - Contributed to the code of Haier's IoT packages, including the startup sound feature, voice-switching feature, sleep mode voice activation feature, and washing and drying voice activation feature.
           - Participated in group meetings to report project details and coordinate project progress with project managers.
           
       - layout: left
@@ -73,7 +73,7 @@ content:
         sub_title: Research Assistant
         caption: May 2022 - September 2022
         description: |
-          - Worked on an interview study discussing the Software Industry’s hybrid working mode during the COVID pandemic.
+          - Worked on an interview study discussing the Software Industry's hybrid working mode during the COVID pandemic.
           - Supervised by award-winning computer scientist Dr. Paul Ralph.
           - Conducted interviews, collected data, and transcribed the information for analysis.
           - Presented research findings to groups of people.
@@ -85,7 +85,7 @@ content:
         sub_title: Web Development Intern
         caption: October 2020 - January 2021
         description: |
-          - Worked on a Vocational School Education Management System project (Teacher’s interface).
+          - Worked on a Vocational School Education Management System project (Teacher's interface).
           - Wrote supporting code for web applications.
           - Evaluated code to ensure its validity, proper structure, compliance with industry standards, and compatibility with various browsers, devices, and operating systems.
 
