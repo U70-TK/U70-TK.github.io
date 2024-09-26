@@ -7,13 +7,11 @@ version: 2
 
 # Personal info
 name: Tiankuan (Felix) Wang
-title: Bachelor of Computing Science
-Honors Degree
-University of Alberta
+title: "Bachelor of Computing Science \nHonors Degree \nUniversity of Alberta"
 email: tiankuan@ualberta.ca
 personal_email: tiankwang@yahoo.com
 # email_title: Email (Email title override)
-phone: 8259771966
+phone: +1(825)-977-1966
 # phone_title: Phone (Phone title override)
 
 # Dark Mode (true/false/never)
