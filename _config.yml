@@ -172,10 +172,10 @@ content:
           - The game features multiple levels of difficulty to cater to players of varying skill levels. AI opponents are implemented using different algorithms: a Minimax-based player for basic strategic moves, an Alpha-Beta pruning-based player for more efficient decision-making, and a Monte Carlo Tree Search (MCTS) player for advanced and probabilistic strategies.
 
   - title: Volunteer Experience
-  layout: text
-  content: |
-    **Volunteer for Prairie Urban Farm: Summer Gardening.**
-    - Participated in various summer gardening activities, including planting, watering, and maintaining garden beds, contributing to the community's food sustainability efforts. Worked with a diverse group of people, learning about urban farming practices and teamwork in a collaborative outdoor environment.
+    layout: text
+    content: |
+      **Volunteer for Prairie Urban Farm: Summer Gardening.**
+      - Participated in various summer gardening activities, including planting, watering, and maintaining garden beds, contributing to the community's food sustainability efforts. Worked with a diverse group of people, learning about urban farming practices and teamwork in a collaborative outdoor environment.
 
 # Footer
 footer_show_references: true
