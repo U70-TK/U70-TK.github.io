@@ -26,7 +26,7 @@ linkedin_username: felix-wang-75b0b824b
 
 about_profile_image: images/Photo.jpg
 about_content: |
-  I am a developer with a foundation in <mark>Python, Java, TypeScript</mark>, and modern web frameworks like <mark>React and NestJS</mark>. My experience spans across both front-end and back-end development, utilizing tools such as <mark>Docker</mark> and databases like <mark>MySQL, PostgreSQL, and MongoDB</mark>. I also have a keen interest in <mark>machine learning</mark> and <mark>game theory</mark>, applying advanced frameworks like <mark>Pytorch</mark> to solve complex problems. Fluent in both English and Chinese, I excel in <mark>multicultural environments</mark>, bringing strong <mark>communication skills, academic writing skills, and qualitative analysis</mark> skills to my work.
+  I am a scholar and developer with a foundation in <mark>Python, Java, TypeScript</mark>, and modern web frameworks like <mark>React and NestJS</mark>. My experience spans across both front-end and back-end development, utilizing tools such as <mark>Docker</mark> and databases like <mark>MySQL, PostgreSQL, and MongoDB</mark>. I also have a keen interest in <mark>machine learning</mark> and <mark>game theory</mark>, applying advanced frameworks like <mark>Pytorch</mark> to solve complex problems. Fluent in both English and Chinese, I excel in <mark>multicultural environments</mark>, bringing strong <mark>communication skills, academic writing skills, and qualitative analysis</mark> skills to my work.
 
 content:
   - title: Research Experience
@@ -175,8 +175,8 @@ content:
     content: |
       **Volunteer for Prairie Urban Farm: Summer Gardening.**
       - Participated in various summer gardening activities, including planting, watering, and maintaining garden beds, contributing to the community's food sustainability efforts. Worked with a diverse group of people, learning about urban farming practices and teamwork in a collaborative outdoor environment.
-      - <a href="/images/volunteer1.jpg"></a>
-      - <a href="/images/volunteer2.jpg"></a>
+      - Images ![alt text](/images/volunteer1.jpg "Volunteering picture1")
+      - Images ![alt text](/images/volunteer2.jpg "Volunteering picture2")
 
 # Footer
 footer_show_references: true
