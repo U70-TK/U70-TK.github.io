@@ -29,33 +29,33 @@ about_content: |
   I am a developer with a foundation in <mark>Python, Java, TypeScript</mark>, and modern web frameworks like <mark>React and NestJS</mark>. My experience spans across both front-end and back-end development, utilizing tools such as <mark>Docker</mark> and databases like <mark>MySQL, PostgreSQL, and MongoDB</mark>. I also have a keen interest in <mark>machine learning</mark> and <mark>game theory</mark>, applying advanced frameworks like <mark>Pytorch</mark> to solve complex problems. Fluent in both English and Chinese, I excel in <mark>multicultural environments</mark>, bringing strong <mark>communication skills, academic writing skills, and qualitative analysis</mark> skills to my work.
 
 content:
-  - title: Research Experience 
+  - title: Research Experience
     layout: list
     content:
       - layout: left
         border: weak  
         title: UG-STNN Model
         description: |
-          Mentored by Dr. Zesheng Cheng and contributed to his research in UG-STNN model, which is A Spatial-Temporal Neural Network based on unsupervised graph representation module for traffic flow prediction. The paper will be presented at the conference SMC 2024.
-    content:
+          Mentored by Dr. Zesheng Cheng and contributed to his research in UG-STNN model, which is a Spatial-Temporal Neural Network based on an unsupervised graph representation module for traffic flow prediction. The paper will be presented at the conference SMC 2024.
+          
       - layout: left
         border: weak  
         title: STGCN(SVD) Model
         description: |
           Mentored by Dr. Zesheng Cheng and contributed substantially to his research in STGCN(SVD) model, which introduced a SVD-based denoising layer to the traditional STGCN model to enhance the performance of graph neural networks in traffic flow prediction.
-    content:
+          
       - layout: left
         border: weak  
         title: Software Management under COVID-19 Study
         description: |
-          Mentored by Dr. Paul Ralph on an interview study about the hybrid working mode on Hybrid Software Engineering during COVID. Compared teams under hybrid working mode, co-located software engineering mode and fully remote working mode. Second author of the unpublished paper “Hybrid Software Engineering trades Coordination and Trust for Flexibility and Cost Savings".
-    content:
+          Mentored by Dr. Paul Ralph on an interview study about the hybrid working mode in Hybrid Software Engineering during COVID. Compared teams under hybrid working mode, co-located software engineering mode, and fully remote working mode. Second author of the unpublished paper “Hybrid Software Engineering trades Coordination and Trust for Flexibility and Cost Savings.”
+          
       - layout: left
         border: weak  
         title: Clobber Game Conjecture Study
         description: |
-          Mentored by Dr. Ryan Hayward on a Game Theory project about proving a conjecture mentioned in the paper “An introduction to Clobber” published on the Journal INTEGER. The project includes mathematical proving as well as developing an algorithm for solving a NP-Hard problem.
-        
+          Mentored by Dr. Ryan Hayward on a Game Theory project about proving a conjecture mentioned in the paper “An introduction to Clobber” published in the Journal INTEGER. The project includes mathematical proving as well as developing an algorithm for solving an NP-Hard problem.
+
   - title: Experience
     layout: list
     content:
