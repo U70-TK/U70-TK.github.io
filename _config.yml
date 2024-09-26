@@ -121,9 +121,10 @@ content:
         sub_title: Bachelor of Information Technology
         caption: February 2020 - January 2022
         description: |
-          - Use Java to implement basic data structures and algorithms.
-          - Use Haskell to get familiar with Functional Programming and implement game artificial intelligence algorithms in Game theory.
-          - Use Assembly Language ARMv7 to code STM32 discovery kits. 
+          - Relevant courses and skills:
+            - Use Java to implement basic data structures and algorithms.
+            - Use Haskell to get familiar with Functional Programming and implement game artificial intelligence algorithms in Game theory.
+            - Use Assembly Language ARMv7 to code STM32 discovery kits. 
 
   - title: A Little More About Me
     layout: text
