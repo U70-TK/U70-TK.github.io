@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Tiankuan (Felix) Wang
-title: Bachelor of Computing Science (Honors)
+title: Bachelor of Computing Science \n Honors Degree \n University of Alberta
 email: tiankuan@ualberta.ca
 # email_title: Email (Email title override)
 phone: 8259771966
@@ -19,13 +19,8 @@ darkmode: false
 # Social links
 github_username: U70-TK
 instagram_username: felixwangggg
-linkedin_username: Felix Wang
+linkedin_username: felix-wang-75b0b824b
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
