@@ -97,7 +97,7 @@ content:
         sub_title: B.Sc. Computing Science (Honors)
         caption: September 2022 - June 2025 (Expected Graduation)
         description: |
-          - Current GPA: 3.76
+          - Current GPA: 3.76/4
           - Relevant courses and skills:
             - Android development with Java (Gradle), software development principles and design patterns for robust and scalable mobile applications.
             - Course on cross-platform development using React Native, NestJS, and TypeScript, focusing on Agile methodologies and software management practices.
@@ -110,6 +110,7 @@ content:
         sub_title: Bachelor of Computer Science
         caption: January 2022 - September 2022
         description: |
+          - GPA: 4.3/4.3
           - Relevant courses and skills:
             - Course on using HTTP, CSS and JavaScript to build web pages, as well as basic network communication principles.
             - Use Python's data science libraries such as numpy, pandas, and matplotlib to perform data science analysis and data visualization.
