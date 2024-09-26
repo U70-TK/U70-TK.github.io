@@ -2,7 +2,9 @@
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
-      <h2>{{ site.title | escape }}</h2>
+      <h2>{{ site.program | escape }}</h2>
+      <h2>{{ site.degree | escape }}</h2>
+      <h2>{{ site.university | escape }}</h2>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
@@ -111,11 +113,9 @@
         {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
       </p>
       {%- endif -%}
-      {%- if site.personal_email -%}
         <p>
-          {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.personal_email }}" target="_blank">{{ site.personal_email | escape }}</a>
+          {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.personal_email }}" target="_blank">{{ site.personal_email}}</a>
         </p>
-      {%- endif -%}
       {%- if site.phone -%}
         <p>
           {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
