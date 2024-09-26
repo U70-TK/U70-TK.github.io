@@ -110,11 +110,11 @@
 
       {%- if site.email -%}
       <p>
-        {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+        {{ site.email_title | default: "University Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
       </p>
       {%- endif -%}
         <p>
-          {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.personal_email }}" target="_blank">{{ site.personal_email}}</a>
+          {{ site.email_title | default: "Personal Email" }}: <a href="mailto:{{ site.personal_email }}" target="_blank">{{ site.personal_email}}</a>
         </p>
       {%- if site.phone -%}
         <p>
