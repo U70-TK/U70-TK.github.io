@@ -26,7 +26,7 @@ linkedin_username: felix-wang-75b0b824b
 
 about_profile_image: images/Photo.jpg
 about_content: |
-  I am a scholar and developer with a foundation in <mark>Python, Java, TypeScript</mark>, and modern web frameworks like <mark>React and NestJS</mark>. My experience spans across both front-end and back-end development, utilizing tools such as <mark>Docker</mark> and databases like <mark>MySQL, PostgreSQL, and MongoDB</mark>. I also have a keen interest in <mark>machine learning</mark> and <mark>game theory</mark>, applying advanced frameworks like <mark>Pytorch</mark> to solve complex problems. Fluent in both English and Chinese, I excel in <mark>multicultural environments</mark>, bringing strong <mark>communication skills, academic writing skills, and qualitative analysis</mark> skills to my work.
+  I am a scholar and developer who has experience using <mark>Python, Java, TypeScript</mark>, and modern web frameworks like <mark>React and NestJS</mark> for projects. My experience spans across both front-end and back-end development, utilizing tools such as <mark>Docker</mark> and databases like <mark>MySQL, PostgreSQL, and MongoDB</mark>. I also have a keen interest in <mark>Machine Learning</mark> and <mark>Software Engineering</mark>, applying advanced frameworks like <mark>Pytorch</mark> to solve complex problems. Fluent in both English and Chinese, I excel in <mark>multicultural environments</mark>, bringing strong <mark>communication skills, academic writing skills, and qualitative analysis</mark> skills to my work.
 
 content:
   - title: Research Experience
@@ -34,13 +34,13 @@ content:
     content:
       - layout: right
         border: weak  
-        title: UG-STNN Model
+        title: <a href="/assets/UG_STNN__SMC.pdf">UG-STNN Model</a>
         description: |
           Mentored by Dr. Zesheng Cheng and contributed to his research in UG-STNN model, which is a Spatial-Temporal Neural Network based on an unsupervised graph representation module for traffic flow prediction. The paper will be presented at the conference SMC 2024.
           
       - layout: right
         border: weak  
-        title: STGCN(SVD) Model
+        title: <a href="/assets/STGCN(SVD).pdf">STGCN(SVD) Model</a>
         description: |
           Mentored by Dr. Zesheng Cheng and contributed substantially to his research in STGCN(SVD) model, which introduced a SVD-based denoising layer to the traditional STGCN model to enhance the performance of graph neural networks in traffic flow prediction.
           
@@ -97,7 +97,7 @@ content:
         sub_title: B.Sc. Computing Science (Honors)
         caption: September 2022 - June 2025 (Expected Graduation)
         description: |
-          - Current GPA: 3.76/4
+          - Current GPA: 3.75/4
           - Relevant courses and skills:
             - Android development with Java (Gradle), software development principles and design patterns for robust and scalable mobile applications.
             - Course on cross-platform development using React Native, NestJS, and TypeScript, focusing on Agile methodologies and software management practices.
@@ -177,11 +177,12 @@ content:
       - Participated in various summer gardening activities, including planting, watering, and maintaining garden beds, contributing to the community's food sustainability efforts. Worked with a diverse group of people, learning about urban farming practices and teamwork in a collaborative outdoor environment.
       - <img src="/images/volunteer1.jpg" alt="Volunteering picture1" width="400"/>
       - <img src="/images/volunteer2.jpg" alt="Volunteering picture2" width="400"/>
+      **City of Edmonton: Drop-in Tree Planting Program.**
   
   - title: Awards
     layout: text
     content: |
-      **2024 Dean’s Honor Roll - University of Alberta Faculty of Science.**
+      **2024 Dean's Honor Roll - University of Alberta Faculty of Science.**
 
 # Footer
 footer_show_references: true
