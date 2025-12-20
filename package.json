@@ -1,6 +1,7 @@
 {
   "name": "personal-web",
-  "private": true,
+  "private": false,
+  "homepage": "https://u70-tk.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
