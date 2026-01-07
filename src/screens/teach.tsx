@@ -28,14 +28,13 @@ const TeachingSrn = () => {
         <>
         <Box
             sx={{
-                width: "80%",
+                maxWidth: "80%",
+                minHeight: "100vh",
                 mx: "auto",
-                px: 3,
                 py: 6,
                 display: "flex",
                 flexDirection: "column",
                 gap: 4,
-                minHeight: "100vh",
             }}
         >
             <Typography variant="h3" sx={{ fontWeight: 600 }}>

@@ -6,15 +6,15 @@ const CVSrn = () => {
   return (
     <>
     <Box
-      sx={{
-        width: "100%",
-        minHeight: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        px: { xs: 0, sm: 0 },
-        py: { xs: 0, sm: 0 },
-      }}
+        sx={{
+            maxWidth: "80%",
+            minHeight: "100vh",
+            mx: "auto",
+            py: 6,
+            display: "flex",
+            flexDirection: "column",
+            gap: 4,
+        }}
     >
       <Box
         sx={{
