@@ -4,51 +4,42 @@ import CopyRightBar from "../components/copyright-bar";
 
 const CVSrn = () => {
   return (
-    <>
     <Box
-        sx={{
-            maxWidth: "80%",
-            minHeight: "100vh",
-            mx: "auto",
-            py: 6,
-            display: "flex",
-            flexDirection: "column",
-            gap: 4,
-        }}
+      sx={{
+        width: "100%",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        textAlign: "center",
+      }}
     >
       <Box
         sx={{
-          width: "100%",
-          maxWidth: { xs: "100%", sm: 720, md: 980, lg: 1100 },
-          height: { xs: "calc(100vh - 32px)", sm: "calc(100vh - 64px)" },
-          display: "flex",
-          flexDirection: "column",
-          textAlign: "center",
+            width: "80%",
+            maxWidth: { xs: "100%", sm: 720, md: 980, lg: 1100 },
+            mx: "auto",
+            px: { xs: 2, sm: 3 },
+            py: 6,
+            display: "flex",
+            flexDirection: "column",
+            gap: 2,
+
+            flex: "1 1 auto",
+            minHeight: 0,
         }}
       >
-        <Typography
-            variant="h3"
-            sx={{ fontWeight: 600 }}
-        >
+        <Typography variant="h3" sx={{ fontWeight: 600, textAlign: "center" }}>
           Curriculum Vitae
         </Typography>
 
-        <Typography
-          variant="h5"
-          sx={{
-            fontWeight: 400,
-            px: { xs: 1, sm: 3 },
-            py: { xs: 1, sm: 2 },
-          }}
-        >
+        <Typography variant="h5" sx={{ fontWeight: 400, textAlign: "center" }}>
           Hasn't been updated ... yet
         </Typography>
 
         <Box
           sx={{
-            flexGrow: 1,
-            px: { xs: 0, sm: 3 },
-            pb: { xs: 1, sm: 2 },
+            flex: 1,
+            mt: 2,
             minHeight: 0,
           }}
         >
@@ -61,13 +52,16 @@ const CVSrn = () => {
               height: "100%",
               border: "none",
               borderRadius: { xs: 0, sm: 2 },
+              minHeight: { xs: 720, sm: 960 }
             }}
           />
         </Box>
       </Box>
+
+      <Box sx={{ mt: "auto" }}>
+        <CopyRightBar />
+      </Box>
     </Box>
-    <CopyRightBar />
-    </>
   );
 };
 
