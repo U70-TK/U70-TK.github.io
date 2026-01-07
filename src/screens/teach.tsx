@@ -26,7 +26,7 @@ const TeachingSrn = () => {
     return (
         <Box
             sx={{
-                width: "80rem",
+                width: "80%",
                 mx: "auto",
                 px: 3,
                 py: 6,
