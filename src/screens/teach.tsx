@@ -7,7 +7,7 @@ const teachingItems: TeachingInfo[] = [
         courseNumber: "CS 431",
         courseTitle: "Data-Intensive Distributed Analytics",
         term: "Winter",
-        year: "2025",
+        year: "2026",
         role: "Teaching Assistant",
         link: "https://uwflow.com/course/cs431"
     },

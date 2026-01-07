@@ -50,7 +50,6 @@ const PublicationItem = ({ item }: PublicationItemProps) => {
         overflowX: "clip",
       }}
     >
-      {/* Thumbnail wrapper: allow it to shrink on mobile */}
       <Box
         sx={{
           flexShrink: 0,
@@ -58,15 +57,14 @@ const PublicationItem = ({ item }: PublicationItemProps) => {
           maxWidth: "100%",
           display: "flex",
           justifyContent: { xs: "center", sm: "flex-start" },
+          mr: { xs: 10, sm: 10}
         }}
       >
-        {/* Ensure Thumbnail can't exceed its wrapper */}
-        <Box sx={{ width: "100%", maxWidth: { xs: 280, sm: "100%" } }}>
+        <Box sx={{ width: "100%", maxWidth: { xs: 280, sm: "100%" }}}>
           <Thumbnail item={item.image} />
         </Box>
       </Box>
 
-      {/* Text column: minWidth: 0 is crucial for flex overflow */}
       <Box sx={{ flexGrow: 1, minWidth: 0 }}>
         <Typography
           variant="h6"

@@ -57,7 +57,6 @@ const PubsSrn = () => {
                 sx={{
                     maxWidth: "80%",
                     mx: "auto",
-                    px: 3,
                     py: 6,
                     display: "flex",
                     flexDirection: "column",

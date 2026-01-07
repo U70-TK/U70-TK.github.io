@@ -21,13 +21,12 @@ const AboutSrn = () => {
       sx={{
         width: "100%",
         minHeight: "100vh",
-        // Critical: prevents any tiny overflow from creating a horizontal scrollbar on mobile
-        overflowX: "clip", // if you need broader support, change to "hidden"
+        overflowX: "clip",
       }}
     >
       <Box
         sx={{
-          width: "100%",
+          width: "80%",
           maxWidth: { xs: "100%", sm: 720, md: 980, lg: 1100 },
           mx: "auto",
           px: { xs: 2, sm: 3 },
