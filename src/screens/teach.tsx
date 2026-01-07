@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import type {TeachingInfo} from "../components/teach-item";
 import TeachingItem from "../components/teach-item";
+import CopyRightBar from "../components/copyright-bar";
 
 const teachingItems: TeachingInfo[] = [
     {
@@ -24,6 +25,7 @@ const teachingItems: TeachingInfo[] = [
 
 const TeachingSrn = () => {
     return (
+        <>
         <Box
             sx={{
                 width: "80%",
@@ -33,6 +35,7 @@ const TeachingSrn = () => {
                 display: "flex",
                 flexDirection: "column",
                 gap: 4,
+                minHeight: "100vh",
             }}
         >
             <Typography variant="h3" sx={{ fontWeight: 600 }}>
@@ -46,6 +49,8 @@ const TeachingSrn = () => {
                 />
             ))}
         </Box>
+        <CopyRightBar />
+        </>
     );
 };
 

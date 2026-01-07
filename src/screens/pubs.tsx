@@ -56,6 +56,7 @@ const PubsSrn = () => {
             <Box
                 sx={{
                     maxWidth: "80%",
+                    minHeight: "100vh",
                     mx: "auto",
                     py: 6,
                     display: "flex",

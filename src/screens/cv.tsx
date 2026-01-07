@@ -1,8 +1,10 @@
 import { Box, Typography } from "@mui/material";
 import CVPdf from "../assets/resume.pdf";
+import CopyRightBar from "../components/copyright-bar";
 
 const CVSrn = () => {
   return (
+    <>
     <Box
       sx={{
         width: "100%",
@@ -64,6 +66,8 @@ const CVSrn = () => {
         </Box>
       </Box>
     </Box>
+    <CopyRightBar />
+    </>
   );
 };
 

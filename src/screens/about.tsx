@@ -34,7 +34,6 @@ const AboutSrn = () => {
           display: "flex",
           flexDirection: "column",
           gap: { xs: 4, sm: 6 },
-          // extra safety
           overflowX: "clip",
         }}
       >
@@ -43,7 +42,6 @@ const AboutSrn = () => {
           spacing={{ xs: 3, md: 6 }}
           alignItems="flex-start"
         >
-          {/* Portrait: show on top for mobile, on the right for desktop */}
           <Grid
             size={{ xs: 12, md: 5 }}
             sx={{
@@ -51,7 +49,7 @@ const AboutSrn = () => {
               display: "flex",
               justifyContent: { xs: "center", md: "flex-end" },
               alignItems: "flex-start",
-              minWidth: 0, // IMPORTANT: prevents flex overflow on small screens
+              minWidth: 0,
             }}
           >
             <Box
@@ -76,12 +74,11 @@ const AboutSrn = () => {
             </Box>
           </Grid>
 
-          {/* Text */}
           <Grid
             size={{ xs: 12, md: 7 }}
             sx={{
               order: { xs: 1, md: 0 },
-              minWidth: 0, // IMPORTANT: prevents long text from forcing overflow
+              minWidth: 0,
             }}
           >
             <Box
@@ -401,7 +398,6 @@ const AboutSrn = () => {
         </Box>
       </Box>
 
-      {/* Footer */}
       <Box sx={{ width: "100%", mt: 6, overflowX: "clip" }}>
         <CopyRightBar />
       </Box>
