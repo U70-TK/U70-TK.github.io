@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 type NavItem = {
     label: string;
     path: string;
+    external_link?: string;
 };
 
 type NavBarProps = {
@@ -16,8 +17,12 @@ type NavBarProps = {
 const NavBar = ({ navItems }: NavBarProps) => {
     const navigate = useNavigate();
 
-    const handleNavClick = (path: string) => {
-        navigate(path);
+    const handleNavClick = (path: string, external_link?: string) => {
+        if (external_link) {
+            window.open(external_link, "_blank", "noopener,noreferrer");
+        } else {
+            navigate(path);
+        }
     };
 
     return (
@@ -52,7 +57,7 @@ const NavBar = ({ navItems }: NavBarProps) => {
                     {navItems.map((item) => (
                         <Button
                             key={item.path}
-                            onClick={() => handleNavClick(item.path)}
+                            onClick={() => handleNavClick(item.path, item.external_link)}
                             sx={{
                                 color: '#424242',
                                 fontWeight: 500,
