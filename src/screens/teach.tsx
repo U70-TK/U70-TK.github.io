@@ -5,6 +5,14 @@ import CopyRightBar from "../components/copyright-bar";
 
 const teachingItems: TeachingInfo[] = [
     {
+        courseNumber: "CS 136",
+        courseTitle: "Elementary Algorithm Design and Data Abstraction",
+        term: "Fall",
+        year: "2025",
+        role: "Teaching Assistant",
+        link: "https://uwflow.com/course/cs136"
+    },
+    {
         courseNumber: "CS 431",
         courseTitle: "Data-Intensive Distributed Analytics",
         term: "Winter",

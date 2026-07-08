@@ -32,10 +32,6 @@ const CVSrn = () => {
           Curriculum Vitae
         </Typography>
 
-        <Typography variant="h5" sx={{ fontWeight: 400, textAlign: "center" }}>
-          Hasn't been updated ... yet
-        </Typography>
-
         <Box
           sx={{
             flex: 1,
