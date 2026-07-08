@@ -159,7 +159,7 @@ const AboutSrn = () => {
                 supervised by{" "}
                 <a href="https://cs.uwaterloo.ca/~m2nagapp/">Dr. Mei Nagappan</a>.
                 Before this, I received my Bachelor of Computing Science (with First
-                Class Honor) degree from the{" "}
+                Class Honors) degree from the{" "}
                 <a href="https://www.ualberta.ca/en/computing-science/index.html">
                   University of Alberta
                 </a>
@@ -182,13 +182,11 @@ const AboutSrn = () => {
                   wordBreak: "break-word",
                 }}
               >
-                My research interests are primarily <strong>LLM for SE</strong>,{" "}
+                My research interests are primarily <strong>LLMs for SE</strong>,{" "}
                 <strong>Software Security</strong>, and{" "}
-                <strong>Empirical Software Engineering</strong>. I'm not only
-                interested in improving and evaluating LLM-based Code Generation
-                Tools, but also exploring the practices surrounding their adoption in
-                software development workflows in terms of functionality and
-                security.
+                <strong> Secure Code Generation</strong>. Besides improving and evaluating LLM-based Code Generation
+                tools and techniques, I'm also interested in exploring the practices surrounding their adoption in
+                software development workflows in terms of functionality and security.
               </Typography>
 
               <Typography
@@ -205,9 +203,56 @@ const AboutSrn = () => {
                 I had experience using <strong>Python, Typescript</strong>, and modern
                 web frameworks like <strong>React</strong> and <strong>NestJS</strong>{" "}
                 for projects. My experience spans across both front-end and back-end
-                development, utilizing tools such as Docker, PostgreSQL, etc. I also
-                have a keen interest in Deep Neural Networks, utilizing Pytorch to
-                solve complex problems.
+                development, utilizing tools such as Docker, PostgreSQL, etc. I also have experience
+                developing and evaluating large language models using <strong>PyTorch</strong>, the{" "}
+                <a
+                  href="https://huggingface.co/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong>Hugging Face</strong>
+                </a>{" "}
+                ecosystem (
+                <a
+                  href="https://huggingface.co/docs/transformers/index"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong>Transformers</strong>
+                </a>
+                ,{" "}
+                <a
+                  href="https://huggingface.co/docs/trl/index"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong>TRL</strong>
+                </a>
+                ,{" "}
+                <a
+                  href="https://huggingface.co/docs/peft/index"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong>PEFT</strong>
+                </a>
+                ),{" "}
+                <a
+                  href="https://vllm.ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong>vLLM</strong>
+                </a>
+                , and{" "}
+                <a
+                  href="https://axolotl.ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <strong>Axolotl</strong>
+                </a>
+                .
               </Typography>
 
               {/* Social buttons */}
